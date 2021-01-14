@@ -18,8 +18,4 @@ int main(int argc, char*argv[]) {
         perror(argv[1]);
         exit(1);
     }
-    
-
-
-
 }
