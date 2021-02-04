@@ -42,8 +42,7 @@ do_cat(const char *path)
     if (close(fd) < 0) die(path);
 }
 
-static void
-die(const char *s)
+static void die(const char *s)
 {
     perror(s);
     exit(1);
